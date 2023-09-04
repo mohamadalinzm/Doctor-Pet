@@ -1,0 +1,38 @@
+{
+    "name": "dsanaee22/laravel-pet-managment",
+    "description": "with this package you can manage your Petes",
+
+    "keywords": [
+        "Pet",
+        "Pet-managment",
+        "Pet mapping"
+    ],
+
+    "author": [
+        {
+            "name": "Danial Sanaee",
+            "email": "dsanaee22@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pet\\PetServiceProvider"
+            ]
+        }
+    }
+
+}

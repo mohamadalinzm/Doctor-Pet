@@ -1,0 +1,38 @@
+{
+    "name": "dsanaee22/laravel-address-managment",
+    "description": "with this package you can manage your addresses",
+
+    "keywords": [
+        "address",
+        "address-managment",
+        "address mapping"
+    ],
+
+    "author": [
+        {
+            "name": "Danial Sanaee",
+            "email": "dsanaee22@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Address\\AddressServiceProvider"
+            ]
+        }
+    }
+
+}
